@@ -1,0 +1,146 @@
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.separator {
+  border-left: 1px solid #ddd; /* Línea vertical */
+}
+
+.nav-item :hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.nav-item {
+  font-family: "Lato", sans-serif;
+}
+
+.img {
+  height: 280px;
+  width: 480px;
+}
+
+.img-raw-smackdown {
+  height: 150px;
+  width: 450px;
+  border: 5px solid black;
+}
+
+.sign-up {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.cede{
+   margin-top: 60px;
+}
+
+footer{
+   width: 100%;
+}
+
+.link-net{
+   color: #ddd;
+}
+
+.link-net :hover{
+      color: black;
+}
+
+.container-titulo{
+  width: 100%;
+}
+
+.btn-roster-smackdown :hover{
+  border-color: blue;
+}
+
+.btn-roster-raw :hover{
+  border-color: red;
+}
+
+.formulario{
+  background-image: url(assets/wweeejpeg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+#details-box {
+  display: none;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#details-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover; 
+}
+ 
+.contiene{
+  padding-top: 80px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto; 
+  object-fit: cover; 
+  max-height: 500px; 
+}
+
+.diamond {
+  width: 200px; /* Ajusta el tamaño según sea necesario */
+  height: 200px; /* Ajusta el tamaño según sea necesario */
+  background-color: red;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 20px auto; /* Centrar el rombo */
+}
+
+.diamond img {
+  width: 160px; /* Ajusta el tamaño de la imagen dentro del rombo */
+  height: 160px; /* Ajusta el tamaño de la imagen dentro del rombo */
+  transform: rotate(-45deg); /* Girar la imagen para que esté en posición normal */
+  position: absolute; /* Para que se superponga correctamente dentro del rombo */
+}

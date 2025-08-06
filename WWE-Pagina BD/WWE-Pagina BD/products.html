@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWE Products</title>
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.min.css">
+    <!--FUENTES DE GOOGLE-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--LINK A CSS-->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header> <!--TITULO DE LA PAGINA-->
+        <div class="container-titulo">
+            <h1 class="text-center mt-2 mb-0 py-3 bg-danger"> WWE PRODUCTS</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-secondary py-3"> <!--BARRA NAVEGADORA-->
+        <div class="container">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a> <!--ENLACES-->
+                </li>
+                <div class="separator"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <div class="separator"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="company.html">Company</a>
+                </li>
+                <div class="separator"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container"> <!--INFORMACION DE VISUALIZACION-->
+        <p class="text-center mt-5">
+            ¡Descubre la emoción de la WWE en nuestra tienda oficial! Encuentra productos exclusivos de tus
+            superestrellas favoritas, desde camisetas y figuras coleccionables hasta artículos para el hogar y
+            accesorios. Ya seas un fanático de larga data o un recién llegado al universo de la lucha libre, tenemos
+            algo para todos. ¡No te pierdas la oportunidad de mostrar tu pasión por la WWE y llevarte a casa un pedazo
+            de la acción! Visítanos y vive la experiencia WWE como nunca antes. ¡Haz tu compra hoy!
+        </p>
+    </div>
+
+    <div class="container px-4 text-center"> <!--TEXTO Y BARRA BUSCADORA-->
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 mt-3">
+                    <h2> Adquiere uno de nuestros productos aqui </h2>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="p-3 ">
+                    <form class="d-flex mt-5 ms-3 role=" search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">                   <!--CARTA 1-->
+        <div class="row text-center">
+            <div class="col-md-4 pb-3">
+                <div class="card" style="width: 18rem; cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    <img src="assets/tittle.jpg" class="card-img-top" alt="Imagen 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-start">Cinturón de Réplica del Campeonato de la WWE</h5>
+                        <p class="card-text">$300.00</p>
+                        <button class="btn btn-danger">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pb-3">                         <!--CARTA2-->
+                <div class="card" style="width: 18rem; cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modal2">
+                    <img src="assets/stonecold.jpg" class="card-img-top" alt="Imagen 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-start">Ropa Contenders para hombre Sudadera con capucha negra "Stone
+                            Cold" Steve Austin 3:16</h5>
+                        <p class="card-text">$35.00</p>
+                        <button class="btn btn-danger">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pb-3">                    <!--CARTA 3-->
+                <div class="card" style="width: 18rem; cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modal3">
+                    <img src="assets/shortaew.jpeg" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-start">Ropa Contenders para hombre Pantalón corto de malla nWo
+                            Announcement negro</h5>
+                        <p class="card-text">$25.00</p>
+                        <button class="btn btn-danger">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal foto 1-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header p-4">
+                    <img src="assets/tittle.jpg" class="card-img-top" alt="Imagen 1">
+                </div>
+                <div class="modal-body">
+                    <h5 class="card-title text-start">Cinturón de Réplica del Campeonato de la WWE</h5>
+                    <p class="card-text text-center mt-2">$300.00</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal foto 2-->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header p-4">
+                    <img src="assets/stonecold.jpg" class="card-img-top" alt="Imagen 2">
+                </div>
+                <div class="modal-body">
+                    <h5 class="card-title text-start">Ropa Contenders para hombre Sudadera con capucha negra "Stone
+                        Cold" Steve Austin 3:16</h5>
+                    <p class="card-text  text-center mt-2">$35.00</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal foto 3-->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header p-4">
+                    <img src="assets/shortaew.jpeg" class="card-img-top" alt="Imagen 3">
+                </div>
+                <div class="modal-body">
+                    <h5 class="card-title text-start">Ropa Contenders para hombre Pantalón corto de malla nWo
+                        Announcement negro</h5>
+                    <p class="card-text  text-center mt-2">$25.00</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="row g-0 text-center custom-row  bg-secondary mt-5"> <!--REDES SOCIALES-->
+            <div class="col-6 col-md-3 pt-5">
+                <p>+500M facebook <br> <br> +220M Instagram <br><br> +160K Twitch</p>
+            </div>
+            <div class="col-6 col-md-3 d-flex flex-column align-items-center pt-5 ">
+                <a target="_blank" class="link-net" href="https://www.facebook.com/wwe">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="mb-4 icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg>
+                </a>
+
+                <a target="_blank" class="link-net" href="https://www.instagram.com/wwe">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="mb-4 icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M16.5 7.5l0 .01" />
+                    </svg>
+                </a>
+
+                <a target="_blank" class="link-net" href="https://www.twitch.tv/wwe">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="mb-4 icon icon-tabler icons-tabler-outline icon-tabler-brand-twitch">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z" />
+                        <path d="M16 8l0 4" />
+                        <path d="M12 8l0 4" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-6 col-md-3  bg-secondary pt-5">
+                <form class="d-flex mt-5 ms-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="col-6 col-md-3 bg-secondary pt-5">
+                <p class="ms-5 me-5">© [2004] WWE. Todos los derechos reservados. Este sitio y su contenido son
+                    propiedad de
+                    World
+                    Wrestling Entertainment, Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/Bootstrap/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
